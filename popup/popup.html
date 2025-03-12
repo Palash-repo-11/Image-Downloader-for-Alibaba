@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alibaba image find</title>
+    <link rel="stylesheet" href="./popup.css">
+</head>
+
+<body>
+    <!-- Navbar  -->
+    <div id="navbar">
+        <h1>Image Downloader for <br> <span>AliExpress | Alibaba™</span> </h1>
+        <P>Download images & video instantly!</P>
+    </div>
+
+    <!-- Loader  -->
+    <div id="loader">
+        <div id="loaderdiv">
+            <img src="../Pulse-1s-200px.gif" alt="">
+        </div>
+    </div>
+
+    <!-- Default State -->
+    <div id="page-info" class="not-seen">
+        <div id="page-navigator">
+            <div id="pagedesc">
+                <div>
+                    Go to <button id="navigator" style="width: 85px;">Alibaba</button><button id="navigatorAE" style="width: 105px;">AliExpress</button>
+                </div>
+                <div>
+                    Navigate to Products Page to download!
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Result Section  -->
+    <div id="wrapper" class="not-seen">
+        <div id="contentbox">
+            <button class="btn" id="mainImg">Main Images</button>
+            <button class="btn" id="varientimg">Varient Images</button>
+            <button class="btn" id="descImg">Description Images</button>
+            <button class="btn" id="productVideo">Product Video</button>
+            <button class="btn" id="descVideo">Description Video</button>
+            <button class="btn" id="DownloadAll">Download All</button>
+        </div>
+    </div>
+    <!-- Footer  -->
+    <div id="footer">
+        <div id="rate" onclick=""> Rate Us</div>
+    </div>
+    <script src="./popup.js"></script>
+</body>
+
+</html>
